@@ -1,0 +1,70 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.navbar-brand{
+}
+.navbar-header .navbar-brand{
+	color: #27ae60;
+}
+#top-container{
+	width: 100%;
+	background: url("../img/desk.jpg");
+	background-size: cover;
+	background-position: center center;
+    background-repeat: no-repeat;
+}
+#top-row{
+	margin-top: 9em;
+	color: #fff;
+	background-color: rgba(0,0,0,.4);
+	padding-bottom: 1em;
+}
+
+#top-row h1{
+	font-size: 5em;
+}
+
+#top-row form > div{
+	margin-bottom: 2%;
+}
+
+#about h1{
+	margin-top: 8%;
+	font-size: 4em;
+}
+#about span{
+	font-size: 2em;
+}
+
+#about > div:last-child{
+	margin-top: 3%;
+	padding-left: 5%;
+}
+#team {
+	padding-top: 3%;
+}
+#team h1{
+	font-size: 4em;
+	text-align: center;
+}
+
+#team img{
+	height: 140px;
+	width: 140px;
+}
+
+#team > .row:last-child {
+	margin-left: -10%;
+}
+
+#footer{
+	background-color: black;
+	height: 80px;
+	color: white;
+	font-size: 1.2em;
+	padding-top: 2%;
+}
+
+#footer span{
+	color: #e74c3c;
+}
