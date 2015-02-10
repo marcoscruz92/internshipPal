@@ -27,13 +27,21 @@ body{
 #top-row form > div{
 	margin-bottom: 2%;
 }
-
+#about{
+	width: 100%;
+	background: url("../img/shattered-island.gif");
+	background-size: cover;
+	background-position: center center;
+    background-repeat: no-repeat;
+	color: white;
+}
 #about h1{
 	margin-top: 8%;
 	font-size: 4em;
 }
 #about span{
 	font-size: 2em;
+	color: #27ae60;
 }
 
 #about > div:last-child{
@@ -46,6 +54,7 @@ body{
 #team h1{
 	font-size: 4em;
 	text-align: center;
+	margin-bottom: 5%;
 }
 
 #team img{
